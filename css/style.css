@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Imbue&family=Russo+One&display=swap');
+
+   /* styling for the header */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-image: url(/images/paint.jpg);
+        color: white;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+      }
+
+      h1 {
+        margin-left: 20px;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+
+      }
+      
+      /*styling for the navigation links */
+      nav {
+        color: white;
+        text-align: center;
+        margin-right: 30% ;
+          }
+      
+      nav a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        display: inline;
+      }
+      
+      /*styling for the content area */
+      main {
+        padding: 20px;
+      }
+
+      /* styling for about area */
+
+    #about {
+      width: 30%;
+      margin-left: 25px;
+      margin-top: 10px;
+      font-size: larger;
+      color: white;
+    }
+
+    #about-bg {
+        background-image: url(/images/painted\ house.png);
+      background-size: cover;
+    }
+
+    
