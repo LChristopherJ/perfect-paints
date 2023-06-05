@@ -7,13 +7,12 @@
         align-items: center;
         padding: 10px;
         background-image: url(/images/paint.jpg);
-        color: white;
+        color: rgb(251, 124, 78);
         font-family: 'Cinzel', serif;
         letter-spacing: 2px;
       }
 
-      h1 {
-        margin-left: 20px;
+      h3 {
         font-family: 'Cinzel', serif;
         letter-spacing: 2px;
         text-transform: capitalize;
@@ -21,6 +20,7 @@
       }
 
       /*styling for the navigation links */
+
       nav {
         color: white;
         text-align: center;
@@ -30,7 +30,7 @@
       nav a {
         margin-right: 10px;
         text-decoration: none;
-        color: white;
+        color: rgb(251, 124, 78);
         font-weight: bold;
         display: inline;
       }
@@ -43,20 +43,44 @@
       /* styling for about area */
 
     .about {
-      width: 30%;  
+      width: auto;  
       margin-top: 10px;
-      font-size: larger;
-      margin-right: auto;
-      margin-left: 45px;
+      font-size: large;
+      margin-left: 10px;
+      margin-right: 45px;
     }
 
     /* styling for extra services */
 
     #extra-service {
-        width: 30%;  
+        width: auto;  
         margin-top: 10px;
-        font-size: larger;
-        margin-left: auto;
+        font-size: large;
+        margin-left: 10px;
         margin-right: 45px;
     }
     
+    /* section line for new service */
+
+    .section-line {
+        height: 3px;
+        background-color: rgb(251, 124, 78);
+     
+        width: 50%;
+       
+      }
+
+/* styling for image aside about me content */
+
+img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.about-img {
+    background-image: url(/images/spliot\ room.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
