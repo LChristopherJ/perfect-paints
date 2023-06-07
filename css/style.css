@@ -17,7 +17,7 @@
         letter-spacing: 2px;
         text-transform: capitalize;
         text-decoration: underline;
-        text-align: center;
+        text-align: left;
       }
 
 
@@ -115,10 +115,20 @@ img {
   object-fit: cover; 
 }
 
-/* painting process */
+/*  styling for painting process */
 
-#painting-process {
-    background-image: url(/images/plain\ black\ wall.jpg);
-    background-size: cover;
+
+.painting-process {
+     height: 300px;
+     width: auto; 
+     background-image: url(/images/painted\ house.png);
+     background-size: cover;
+    
 }
+
+
+ #pp-header{
+    font-size: 30px;
+    margin-top: 15px;
+ }
 
