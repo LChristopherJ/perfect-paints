@@ -8,19 +8,16 @@
         align-items: center;
         padding: 10px;
         font-family: 'Cinzel', serif;
-                  
+        background-color: rgb(7, 7, 67);
+                          
       }
 
       /* body */
 
-      body {
-        background-image: url(/images/body-bg3.jpeg);
-        background-size: cover;
-        background-position: right;
-      }
-
       h1 {
        text-decoration: underline;
+       text-align: center;
+       color: royalblue;
       }
       
       h2 {
@@ -37,30 +34,30 @@
         text-transform: capitalize;
         text-decoration: underline;
         text-align: center;
-        font-size: 17px;
+        font-size: 25px;
       }
 
         p {
         font-family: 'Courgette', cursive;
         letter-spacing: 2px;
         font-size: 17px;
-
+         
         }
 
       /*navigation links */
 
       nav {
-        color: white;
-        text-align: center;
-        margin-right: 20% ;
+        margin-right: 10%;
           }
       
       nav a {
-        margin-right: 10px;
+      
         text-decoration: none;
-        color:white;
         font-weight: bold;
-        display: inline;
+        display: inline-block;
+        margin-left: 15px;
+        color: royalblue;
+        
       }
       
       /*content area */
@@ -93,24 +90,40 @@
 
     .section-line {
         height: 3px;
-        background-color: rgb(198, 100, 25);     
-        width: 75%;
+        background-color: royalblue;     
+        width: 25%;
+        margin-top: 9px;
+        margin-bottom: 9px
        
       }
 
 /* image beneath about-me content */
 
 img {
+  width: auto;
+  height: 300px;
   margin: 0 auto;
   display: block;
   margin-top: 10px;
   border-radius: 15%; 
+  display: grid;
+}
+
+.about-img {
+    margin-bottom: 9px;
+    background-image: url(/images/over;ay\ pic.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 1%;
 }
 
 
 /* styling for other services boxes */
 
 .container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,8 +134,8 @@ img {
   }
 
 .box {
-  width: 400px; 
-  height: 300px; 
+  width: 300px; 
+  height: 200px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,29 +147,36 @@ img {
 #b1 {
     background-image: url(/images/airspary.jpg);
     background-size: center;
+    box-shadow: 10px 10px 10px royalblue;
     }
 #b2 {
     background-image: url(/images/bonding.jpg);
     background-size: cover;
     background-position: center;
+    box-shadow: 10px 10px 10px royalblue;
 }
 #b3 {
     background-image: url(/images/stained\ deck.jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: 10px 10px 10px royalblue;
 }
 #b4 {
     background-image: url(/images/white\ wash\ brick.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 10px 10px 10px royalblue;
 }
 #b5 {
     background-image: url(/images/carpentry2.jpg);
     background-position: left;
+    box-shadow: 10px 10px 10px royalblue;
 }
 #b6 {
-    background-image: url(/images/cont-bg3.jpg);
+    background-image: url(/images/color.jpeg);
+    box-shadow: 10px 10px 10px royalblue;
 }
+  
 .box img {
   width: 100%;
   height: 100%; 
@@ -167,11 +187,22 @@ img {
 
 
 .painting-process {
-     height: 300px;
      width: auto; 
      background-size: cover;
-    
-}
+     width: 100%;
+     height: auto;
+     animation: pulse 5s infinite;
+   }
+
+   @keyframes pulse {
+    0% {
+      background-color: royalblue;
+    }
+    100% {
+      background-color: darkblue;
+    }
+  }
+  
  #pp-header{
         font-family: 'Cinzel', serif;
         letter-spacing: 2px;
@@ -180,3 +211,18 @@ img {
         text-align: center;
  }
 
+ .badges {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    flex-direction: column;
+  }
+  
+  .badges h2 {
+    margin-bottom: 10px;
+  }
+  
+  .badges i {
+    margin-top: 10px;
+  }
