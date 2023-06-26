@@ -1,6 +1,6 @@
 # Project Name
 
-This is a sample README file for the Project Name.
+Wiltshire Painting
 
 ## Table of Contents
 - [User Interface](#user-interface)
@@ -9,8 +9,6 @@ This is a sample README file for the Project Name.
   - [Fonts](#fonts)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [License](#license)
-- [Contributors](#contributors)
 - [About Me](#about-me)
 - [Services Offered](#services-offered)
 - [The Painting Process](#the-painting-process)
@@ -21,7 +19,7 @@ This is a sample README file for the Project Name.
 
 ## User Interface
 
-The user interface of the website is designed to be intuitive and user-friendly. It follows modern design principles and incorporates the following elements:
+The user interface of the website is designed to beuser-friendly and informative. It follows modern design principles and incorporates the following elements:
 
 ### Headings
 
@@ -41,25 +39,20 @@ The website is built using the following technologies:
 
 - HTML5: The markup language used for structuring the content of the web pages.
 - CSS3: The stylesheet language used for styling the website and creating visually appealing layouts.
-- JavaScript: The programming language used for implementing interactive features and functionality.
+- Github: As a platform to keep the project files as well as hosting my website through GitHub pages.
+- codeanywhere: As a coding and development platform.
+- git: As a version-control system
+
+
 
 ## Getting Started
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone <https://github.com/LChristopherJ/perfect-paints>`
 2. Navigate to the project directory: `cd project-directory`
 3. Open the `index.html` file in your preferred web browser.
 
-## License
-
-This project is licensed under the [License Name]. For more information, see the [LICENSE](LICENSE) file.
-
-## Contributors
-
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
-- [Contributor 3](https://github.com/contributor3)
 
 ## About Me
 
@@ -129,4 +122,5 @@ Stay connected with us on social media for updates, inspiration, and more:
 - Facebook: [Wiltshire Painting](https://www.facebook.com/wiltshirepainting)
 - Instagram: [@wiltshirepainting](https://www.instagram.com/wiltshirepainting)
 - Twitter: [@wiltshirepaints](https://twitter.com/wiltshirepaints)
-- LinkedIn: [Wiltshire Painting](https://www.linkedin.com/company/wiltshirepainting)
+- LinkedIn: [Wiltshire Painting](https://www.linkedin.com/company/wiltshirepainting) 
+

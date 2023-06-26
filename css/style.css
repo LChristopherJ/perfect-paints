@@ -28,7 +28,9 @@
         letter-spacing: 2px;
         text-transform: capitalize;
         text-decoration: underline;
-        font-size: 17px;
+        font-size: 25px;
+        color: red;
+        
       }
 
       h3 {
@@ -328,10 +330,10 @@ img {
   }
   
   .contact-box {
-    background-color: #fff;
-    width: 100%;
+    width: 50%;
     padding: 20px;
     text-align: center;
+    margin-left: 25%;
   }
   
   
@@ -353,9 +355,123 @@ img {
     background-color: #4593ce;
   }
   
+  /* media queries */
+
+@media (max-width: 768px) {
+    /* Adjust styles for screen widths up to 768px */
+    header {
+      text-align: center;
+      padding: 10px;
+    }
   
+    header h1 {
+      font-size: 24px;
+    }
   
+    nav {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
   
+    nav a {
+      display: block;
+      margin-bottom: 5px;
+    }
   
+    .about {
+      text-align: center;
+    }
   
+    .about h3 {
+      font-size: 20px;
+    }
+  
+    .about p {
+      font-size: 14px;
+    }
+  
+    .about-img img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .painting-process .badges {
+      text-align: center;
+    }
+  
+    .container-contact {
+        margin: 20px auto;
+        max-width: 600px; /* Adjust the maximum width as per your preference */
+      }
+      
+      .contact-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .contact-box input,
+      .contact-box select {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      
+      .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .footer nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .footer nav a {
+        margin: 0 5px;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust styles for screen widths up to 480px */
+    header h1 {
+      font-size: 20px;
+    }
+  
+    nav {
+      margin-top: 5px;
+    }
+  
+    nav a {
+      margin-bottom: 3px;
+    }
+  
+    .about h3 {
+      font-size: 18px;
+    }
+  
+    .about p {
+      font-size: 12px;
+    }
+  }
+  /* gallery media query */
+
+  @media (max-width: 768px) {
+    .gal-image {
+      width: 100%; 
+    }
+  }
   
