@@ -14,7 +14,7 @@
 
       /* body */
       body {
-        background-image: url('images/cream-texture.jpg') alt="cream wallpaper";
+        background-image: url(''images/cream-texture.jp'g') alt="cream wallpaper";
       }
 
       h1 {
@@ -124,7 +124,7 @@ img {
 
 .about-img {
     margin-bottom: 9px;
-    background-image: url('images/blue-splash.webp');
+    background-image: url(''imagesblue-splash.webp'p');
     background-repeat: repeat-x; 
     background-position: top left; 
     background-size: auto; 
@@ -168,43 +168,43 @@ img {
     box-shadow: 10px 10px 10px black;
     }
 #b2 {
-    background-image: url('images/bonding.jpg');
+    background-image: url(''images/bonding.jp'g');
     background-size: cover;
     background-position: center;
     box-shadow: 10px 10px 10px black;
 }
 #b3 {
-    background-image: url('images/stained-deck.jpg');
+    background-image: url(''images/stained-deck.jp'g');
     background-position: center;
     background-size: cover;
     box-shadow: 10px 10px 10px black;
 }
 #b4 {
-    background-image: url('images/white-wash-brick.jpg');
+    background-image: url(''images/white-wash-brick.jp'g');
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 10px black;
 }
 #b5 {
-    background-image: url('images/carpentry2.jpg');
+    background-image: url(''images/carpentry2.jp'g');
     background-position: left;
     box-shadow: 10px 10px 10px black;
 }
 #b6 {
-    background-image: url('images/cabinets.jpeg');
+    background-image: url(''images/cabinets.jpe'g');
     box-shadow: 10px 10px 10px black;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 }
 #b7 {
-    background-image: url('images/wallpapper-remove.jpeg');
+    background-image: url('images/wallpapper-remove.jpeg'');
     box-shadow: 10px 10px 10px black;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #b8 {
-    background-image: url('images/color.jpeg');
+    background-image: url('images/color.jpeg'');
     box-shadow: 10px 10px 10px black;
 }
 
@@ -226,12 +226,12 @@ img {
 
    @keyframes pulse {
     0% {
-      background-image: url('images/white-wash-body-bg.jpeg');
+      background-image: url(''images/white-wash-body-bg.jpe'g');
       background-size: auto;
       
     }
     100% {
-      background-image: url('images/plain-black-wall.jpg');
+      background-image: url(''images/plain-black-wall.jp'g');
       background-size: auto;
     }
   }
