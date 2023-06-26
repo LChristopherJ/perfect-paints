@@ -14,7 +14,7 @@
 
       /* body */
       body {
-        background-image: url('../images/cream-texture.jpg') alt="cream wallpaper";
+        background-image: url('/images/cream-texture.jpg') alt="cream wallpaper";
       }
 
       h1 {
