@@ -124,7 +124,7 @@ img {
 
 .about-img {
     margin-bottom: 9px;
-    background-image: url(/images/blue-splash.webp) alt="blue splash";
+    background-image: url(/images/blue-splash.webp);
     background-repeat: repeat-x; 
     background-position: top left; 
     background-size: auto; 
