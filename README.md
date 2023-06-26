@@ -16,6 +16,7 @@ Wiltshire Painting
 - [FAQ](#faq)
 - [Get in Touch](#get-in-touch)
 - [Social Media](#social-media)
+- [testing](#testing)
 - [screenshots](#screenshots)
 
 ## User Interface
@@ -124,6 +125,16 @@ Stay connected with us on social media for updates, inspiration, and more:
 - Instagram: [@wiltshirepainting](https://www.instagram.com/wiltshirepainting)
 - Twitter: [@wiltshirepaints](https://twitter.com/wiltshirepaints)
 - LinkedIn: [Wiltshire Painting](https://www.linkedin.com/company/wiltshirepainting) 
+
+## testing
+
+# W3 HTML validator
+
+pass
+
+# W3 css validator
+
+pass
 
 ## screenshots
 
