@@ -159,49 +159,49 @@ img {
 }
 
 #b1 {
-    background-image: url('..assets/images/hero.jpg');
+    background-image: url('../assets/images/hero.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 10px 10px 10px black;
     }
 #b2 {
-    background-image: url('..assets/images/bonding.jpg');
+    background-image: url('../assets/images/bonding.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 10px 10px 10px black;
 }
 #b3 {
-    background-image: url('..assets/images/stained-deck.jpg');
+    background-image: url('../assets/images/stained-deck.jpg');
     background-position: center;
     background-size: cover;
     box-shadow: 10px 10px 10px black;
 }
 #b4 {
-    background-image: url('..assets/images/white-wash-brick.jpg');
+    background-image: url('../assets/images/white-wash-brick.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 10px black;
 }
 #b5 {
-    background-image: url('..assets/images/carpentry2.jpg');
+    background-image: url('../assets/images/carpentry2.jpg');
     background-position: left;
     box-shadow: 10px 10px 10px black;
 }
 #b6 {
-    background-image: url('..assets/images/cabinets.jpeg');
+    background-image: url('../assets/images/cabinets.jpeg');
     box-shadow: 10px 10px 10px black;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 }
 #b7 {
-    background-image: url('..assets/images/wallpapper-remove.jpeg');
+    background-image: url('../assets/images/wallpapper-remove.jpeg');
     box-shadow: 10px 10px 10px black;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #b8 {
-    background-image: url('..assets/images/color.jpeg');
+    background-image: url('../assets/images/color.jpeg');
     box-shadow: 10px 10px 10px black;
 }
 
@@ -223,12 +223,13 @@ img {
 
    @keyframes pulse {
     0% {
-      background-image: url('../images/white-wash-body-bg.jpeg');
+      background-image: url('../assets/images/white-wash-body-bg.jpeg');
       background-size: auto;
       
     }
     100% {
-      background-image: url('../images/plain-black-wall.jpg');
+      background-image: url('../assets/images/plain-black-wall.jpg');
+
       background-size: auto;
     }
   }
